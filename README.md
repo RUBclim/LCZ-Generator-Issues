@@ -6,9 +6,24 @@ Use this repository to create issues for the [LCZ-Generator](https://lcz-generat
 
 ## Changelog
 
+### 0.0.0b5
+
+#### Bugfixes
+
+- fix typo on index page footer
+
+#### Modifications
+
+- change `Freq` to `Count` in `<id>_TA_statistics.csv`
+- update the Terms of Service: now using `CC-BY`
+- update the background image of the index page with the new filtered version of the [european LCZ map](https://figshare.com/s/db6203e0a806816c6f22)
+- add link to [wudapt.org](http://wudapt.org) in the index page footer
+- change paper status from _in preperation_ to _submitted_
+
 ### 0.0.0b4
 
 #### Bugfixes
+
 - fixed a bug where the country selection was not kept when reloading the page or after beeing redirected from the same page
 
 #### Modifications
@@ -19,5 +34,5 @@ Use this repository to create issues for the [LCZ-Generator](https://lcz-generat
 
 #### Features
 
-- add popover to the publish name and email checkbox #47
+- add popover to the publish name and email checkbox
 - a `?` is now present. When hovering over it, a help message is displayed
