@@ -1,3 +1,5 @@
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/RUBclim/LCZ-Generator-Issues/master.svg)](https://results.pre-commit.ci/latest/github/RUBclim/LCZ-Generator-Issues/master)
+
 # LCZ-Generator-Issues
 
 Use this repository to create issues for the [LCZ-Generator](https://lcz-generator.geographie.ruhr-uni-bochum.de/).
