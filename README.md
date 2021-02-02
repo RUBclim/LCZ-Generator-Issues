@@ -8,6 +8,17 @@ Use this repository to create issues for the [LCZ-Generator](https://lcz-generat
 
 ## Changelog
 
+### 0.0.0b6
+
+#### Bugfixes
+
+- fix bug where leading and trailing whitespaces was not stripped in firstname, lastname and city
+
+#### Features
+
+- added footers to all pages including useful links
+- added a navbar to improve navigation between different pages
+
 ### 0.0.0b5
 
 #### Bugfixes
