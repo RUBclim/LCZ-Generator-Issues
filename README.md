@@ -2,11 +2,36 @@
 
 # LCZ-Generator-Issues
 
-Use this repository to create issues for the [LCZ-Generator](https://lcz-generator.geographie.ruhr-uni-bochum.de/).
+Use this repository to create issues for the [LCZ-Generator](https://lcz-generator.rub.de/).
 
 - if you think your issue might be sensitive [reach out directly to us](mailto:info@wudapt.org).
 
 ## Changelog
+
+### 0.0.0b7
+
+#### Bugfixes
+
+- fix a bug where not always the best result per author and city was displayed in the show best submission table
+- fix bug where burger menu could not be closed on the submission table page
+- fix general typos
+
+#### Modifications
+
+- change html page title of the index page from `Index` to to `LCZ Generator`
+- link in page footer for github issues now points to the issue overview instead of the form where a github user account was required
+- update Terms of Service
+- split Terms of Service and Attributions in separate sections in the factsheet
+- add a Privacy Note to the footer
+- results are now sent via a different email address
+- the LCZ Generator is now accessible via a shorter url: `https://lcz-generator.rub.de`
+- the histogram of the number of Training Areas per class now only shows integer values on the y-axis
+- whitespace escape sequences are now removed in the reference and remarks section
+
+#### Features
+
+- add colormaps for QGIS and ArcGIS to the results zip archive
+- add a suggestion for citing the training data to the factsheet
 
 ### 0.0.0b6
 
