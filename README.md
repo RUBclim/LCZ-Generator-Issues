@@ -8,6 +8,16 @@ Use this repository to create issues for the [LCZ-Generator](https://lcz-generat
 
 ## Changelog
 
+### 0.0.0b9
+
+## Bugfixes
+
+- fix a bug where multi part features could not be processed. The features are now split up into single part features so the quality check can work on the individual polygons
+
+## Features
+
+- add a `/robots.txt` route so crawlers can access it
+
 ### 0.0.0b8
 
 #### Bugfixes
@@ -83,7 +93,7 @@ Use this repository to create issues for the [LCZ-Generator](https://lcz-generat
 
 #### Bugfixes
 
-- fixed a bug where the country selection was not kept when reloading the page or after beeing redirected from the same page
+- fixed a bug where the country selection was not kept when reloading the page or after being redirected from the same page
 
 #### Modifications
 
