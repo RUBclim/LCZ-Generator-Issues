@@ -8,6 +8,27 @@ Use this repository to create issues for the [LCZ-Generator](https://lcz-generat
 
 ## Changelog
 
+### 0.0.0b8
+
+#### Bugfixes
+
+- fix a bug where fonts were missing
+- fix a bug where the qc failed when an LCZ class was present in the training data, but not in the final result coming from earth engine
+- fix a bug where the deprecation of `ee.Classifier.randomForest` caused the mapping process to fail
+- fix a bug where a submission would be displayed in the `/submission` table even though it failed
+- fix a bug where the colors of the provided LCZ color maps and the used colors would differ from each other
+- fix a bug where a mapping process would not terminate if the earth engine mapping process failed
+
+#### Modifications
+
+- change the header in the Terms of Service page for the Declaration of Consent to be the same font size
+- use a `.clr` ArcGIS ascii formatted colormap
+
+#### Features
+
+- add a favicon route at `/favicon.ico`
+- limit the size of incoming request to max 10 MB
+
 ### 0.0.0b7
 
 #### Bugfixes
