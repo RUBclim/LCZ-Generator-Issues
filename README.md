@@ -8,13 +8,26 @@ Use this repository to create issues for the [LCZ-Generator](https://lcz-generat
 
 ## Changelog
 
+### 1.0.0
+
+#### Modifications
+
+- add the final reference and DOI for the paper: [Demuzere et al. (2021)](https://doi.org/10.3389/fenvs.2021.637455)
+- restructure `/`- index page
+
+#### Features
+
+- add a `/faq` route
+- add a quality disclaimer to the top of the submission page
+- add a _getting started_ to the index page
+
 ### 0.0.0b9
 
-## Bugfixes
+#### Bugfixes
 
 - fix a bug where multi part features could not be processed. The features are now split up into single part features so the quality check can work on the individual polygons
 
-## Features
+#### Features
 
 - add a `/robots.txt` route so crawlers can access it
 
