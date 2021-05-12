@@ -8,6 +8,25 @@ Use this repository to create issues for the [LCZ-Generator](https://lcz-generat
 
 ## Changelog
 
+### 1.0.1
+
+#### Bugfixes
+
+- fix a bug where an internal server error (500) would be raised if the `kml` file had an invalid syntax and could not be parsed
+- fix a bug where the quality control would fail
+- fix a bug where 2 dimensional `kml` files (only two coordinates, no z coordinate) would cause an error. 2D polygons are now converted to 3D polygons, adding 0 as the new z-value
+- fix a bug where an invalid `kmz` file caused an internal server error (500)
+- fix a typo `succesfully` &rarr; `successfully`
+
+#### Modifications
+
+- dependency updates
+- add a new web message for the invalid `kmz` file case
+
+#### Features
+
+- improve the internal error notification system
+
 ### 1.0.0
 
 #### Modifications
