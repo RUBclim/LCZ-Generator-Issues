@@ -8,6 +8,16 @@ Use this repository to create issues for the [LCZ-Generator](https://lcz-generat
 
 ## Changelog
 
+### 1.0.2
+
+#### Bugfixes
+
+- fix/handle an (upstream) [bug](https://issuetracker.google.com/u/1/issues/188576299) where the asset ingest would randomly fail, but succeed on the second try
+
+#### Modifications
+
+- dependency updates
+
 ### 1.0.1
 
 #### Bugfixes
