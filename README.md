@@ -6,6 +6,10 @@ Use this repository to create issues for the [LCZ-Generator](https://lcz-generat
 
 - if you think your issue might be sensitive [reach out directly to us](mailto:info@wudapt.org).
 
+## [LCZ Generator Status](https://hetrixtools.com/r/34989feee57529ebe9c7c3a96d3e1bbe/)
+
+You can't reach the LCZ Generator? Have a look the status at the [status page](https://hetrixtools.com/r/34989feee57529ebe9c7c3a96d3e1bbe/)
+
 ## Changelog
 
 ### 1.0.2
