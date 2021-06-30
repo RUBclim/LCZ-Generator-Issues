@@ -12,6 +12,16 @@ You can't reach the LCZ Generator? Have a look the status at the [status page](h
 
 ## Changelog
 
+### 1.0.3
+
+#### Bugfixes
+
+- fix a bug where a missing asset in earthengine would cause the mapping process to fail
+
+#### Modifications
+
+- dependency updates
+
 ### 1.0.2
 
 #### Bugfixes
