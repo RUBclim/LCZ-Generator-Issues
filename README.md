@@ -12,6 +12,24 @@ You can't reach the LCZ Generator? Have a look the status at the [status page](h
 
 ## Changelog
 
+### 1.1.0
+
+#### Bugfixes
+
+- added two missing tiles for EO data in eastern Alaska
+- fix a bug where a training area file would pass the quality check, even though it only had one LCZ class
+- fix a bug where a submission was not fully removed, even though the initial check failed
+
+#### Modifications
+
+- dependency updates
+- do not send the processed results via email anymore, generate only a download link in the email
+
+#### Features
+
+- add a `.kmz` file with the LCZ map and already applied colormap to the archive
+  - a link for the download of this file is also included in the factsheet
+
 ### 1.0.3
 
 #### Bugfixes
