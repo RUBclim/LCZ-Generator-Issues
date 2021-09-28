@@ -12,6 +12,19 @@ You can't reach the LCZ Generator? Have a look the status at the [status page](h
 
 ## Changelog
 
+### 1.1.1
+
+#### Bugfixes
+
+- fix a typo on the index page
+- fix a bug where an error `403` was raised when trying to access `*.kmz` files
+- fix a bug where a file just called `.kml` or `.kmz` would cause and internal server error `500`
+
+#### Modifications
+
+- dependency updates
+- add item to FAQ for submission deletion
+
 ### 1.1.0
 
 #### Bugfixes
