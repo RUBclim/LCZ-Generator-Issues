@@ -8,9 +8,21 @@ Use this repository to create issues for the [LCZ-Generator](https://lcz-generat
 
 ## [LCZ Generator Status](https://hetrixtools.com/r/34989feee57529ebe9c7c3a96d3e1bbe/)
 
-You can't reach the LCZ Generator? Have a look the status at the [status page](https://hetrixtools.com/r/34989feee57529ebe9c7c3a96d3e1bbe/)
+You can't reach the LCZ Generator? Have a look at the status [status page](https://hetrixtools.com/r/34989feee57529ebe9c7c3a96d3e1bbe/)
 
 ## Changelog
+
+### 1.1.2
+
+#### Bugfixes
+
+- fix a bug where cases with two folders in the input file, but one only with 1 polygon were not rejected and the processing would fail in the end
+- fix a bug where filenames with not a single ascii character would cause an internal server error
+
+#### Modifications
+
+- dependency updates
+- make the error message for too few polygons more explicit
 
 ### 1.1.1
 
