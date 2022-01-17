@@ -4,7 +4,7 @@
 
 Use this repository to create issues for the [LCZ-Generator](https://lcz-generator.rub.de/).
 
-- if you think your issue might be sensitive [reach out directly to us](mailto:info@wudapt.org).
+- if you think your issue might be sensitive [reach out directly to us](mailto:lcz-generator@rub.de).
 
 ## [LCZ Generator Status](https://hetrixtools.com/r/34989feee57529ebe9c7c3a96d3e1bbe/)
 
