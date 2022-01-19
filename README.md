@@ -12,11 +12,20 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 ## Changelog
 
+### 1.1.4
+
+## Modifications
+
+- dependency updates
+- improve the loading speed of the submission table
+- extend the submission form expiration time (_Error CSRF Token expired_)
+- add more retries to all email sending calls to address reoccurring short outages of the RUB-Email service
+
 ### 1.1.3
 
 #### Modifications
 
-- dependency update
+- dependency updates
 
 ### 1.1.2
 
