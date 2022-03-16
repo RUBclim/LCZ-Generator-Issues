@@ -12,9 +12,22 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 ## Changelog
 
+### 1.2.0
+
+#### Modifications
+
+- dependency updates
+- Show the full firstname in the citation suggestion for the training areas
+
+#### Tests/code quality
+
+- CI improvements
+- test speed improvements
+- pre-commit autoupdate
+
 ### 1.1.4
 
-## Modifications
+#### Modifications
 
 - dependency updates
 - improve the loading speed of the submission table
