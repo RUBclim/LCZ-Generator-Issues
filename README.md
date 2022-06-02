@@ -12,6 +12,17 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 ## Changelog
 
+### 1.2.2
+
+#### Bugfixes
+
+- upgrade version of `Pillow` because `9.1.0` had a [CVE-2022-30595](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30595)
+
+#### Modifications
+
+- change internal dependency management tool
+- multiple version upgrades, now all bundled in one PR
+
 ### 1.2.1
 
 #### Modifications
