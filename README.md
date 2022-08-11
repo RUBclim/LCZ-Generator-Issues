@@ -12,6 +12,20 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 ## Changelog
 
+### 1.3.0
+
+#### Bugfixes
+
+- fix broken shp links in shape files. Previously only the `.shp` could be downloaded
+
+#### Modifications
+
+- update requirements
+
+#### Features
+
+- add new API to request the quality control polygons and point shape files
+
 ### 1.2.2
 
 #### Bugfixes
