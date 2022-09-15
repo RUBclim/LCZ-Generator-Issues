@@ -12,6 +12,19 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 ## Changelog
 
+### 1.4.0
+
+#### Modifications
+
+- update requirements
+- improve the error emails
+- improve error and performance monitoring
+
+#### Features
+
+- implement an XYZ tile map server for the global LCZ map
+- implement an inverted y-axis redirect for the global LCZ map tile map server
+
 ### 1.3.0
 
 #### Bugfixes
