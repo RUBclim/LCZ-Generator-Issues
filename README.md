@@ -12,6 +12,21 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 ## Changelog
 
+### 1.5.0 (2022-11-07)
+
+#### Bug fixes
+
+- fix broken link to institute logo
+- fix a bug where the logger handler was not cleared properly
+
+#### Modifications
+
+- update dependencies
+
+#### Features
+
+- add link to Google Earth Engine and show code snippet
+
 ### 1.4.0
 
 #### Modifications
