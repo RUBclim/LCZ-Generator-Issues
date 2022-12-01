@@ -12,6 +12,38 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 ## Changelog
 
+### 1.6.0 (2022-12-01)
+
+#### Bug fixes
+
+- fix a bug where nothing was logged, because the log level was set incorrectly set to `ERROR` (the default) instead of `INFO`
+- fix a bug where no errors were sent to sentry, because the `DSN` was set incorrectly
+- fix a bug where the DOI did not point to the generic DOI within Zenodo.
+- fix a typo in the integrity check of the `leaflet.js` library
+- Now the email also takes the original casing into account
+- fix deprecation warnings
+
+#### Modifications
+
+- vendor all used images directly to not rely on 3rd parties
+- update all external `css` and `js` that is used
+- check the integrity of every `js` and `css`
+- update the dependencies
+- render the date displayed in the submission table in the user's timezone and format
+- keep the casing the user entered when submitting. Do not capitalize it anymore. Existing records were updated using `INITCAP` to be compatible.
+- make the codebase python3.10+ (using `pyupgrade`)
+
+#### Features
+
+- implement a script for safely requeueing a submission. A few prerequisite need to be fulfilled before being able to requeue. If one was not satisfied, the user got a second error email. (almost all necessary requeues are caused by an unstable internet connection at the data center or an outage of the university-Email service - both are outside of what we can fix (we already have a dozen exponentially backed off retries))
+
+#### Test/code quality
+
+- do not test against python 3.9 anymore, since the deployed version is python 3.10
+- extent `mypy` checking and add missing type annotations
+- the codebase is python3.10+ now removing most imports from `typing` and only testing against python 3.10 also configuring `pre-commit` accordingly
+- fix some test pollution that was caused by incorrectly mocking the `mapping_process`
+
 ### 1.5.0 (2022-11-07)
 
 #### Bug fixes
