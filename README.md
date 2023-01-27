@@ -12,6 +12,19 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 ## Changelog
 
+### 1.6.1 (2023-01-27)
+
+#### Bug fixes
+
+- fix a bug where mixed geometry type (`Polygon` and `LineString`) caused the training
+  area database insert to fail.
+
+#### Modifications
+
+- tests against python 3.11
+- update requirements
+- fix warning and remove pinning of scikit-learn for `min_samples` of `DBSCAN`
+
 ### 1.6.0 (2022-12-01)
 
 #### Bug fixes
