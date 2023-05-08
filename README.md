@@ -12,6 +12,18 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 ## Changelog
 
+### 1.7.0 (2023-05-08)
+
+#### Modifications
+
+- update requirements
+- migrate to `sqlalchemy` >= 2.0
+- make the codebase python3.11+
+
+#### Features
+
+- migrate to bootstrap 5. Attribution Guidelines, Terms of Service and Declaration of Consent now show up as a modal instead of a popup
+
 ### 1.6.2 (2023-03-13)
 
 #### Modifications
