@@ -12,6 +12,63 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 ## Changelog
 
+### 2.0.0 (2023-06-16)
+
+#### Modifications
+
+- update requirements
+- Make the generic error email a little more specific and suggest a fix. Since most unhandled errors are caused by too few training areas
+- change the license from **CC BY-SA** to **CC BY-NC-SA**. To be fully transparent: The following changes were applied to the license:
+
+```diff
+commit fb5cfabcf92fdeac19775542f9a78e8daf4e449e
+Author: Jonas Kittner
+Date:   Wed Jun 14 18:22:31 2023 +0200
+
+    change the licence from CC BY-SA to CC NC-BY-SA
+
+diff --git a/dashboard/templates/attribution_text.html b/dashboard/templates/attribution_text.html
+index 0f48c48..69adffc 100644
+--- a/dashboard/templates/attribution_text.html
++++ b/dashboard/templates/attribution_text.html
+@@ -31,7 +31,7 @@
+     <li>
+       {{ content.LASTNAME|e }}, {{ content.FIRSTNAME|e }}
+       ({{ content.SUBMISSIONDATE[:4]|e }}). WUDAPT Level 0 training data for {{ content.CITY|e }} ({{ content.COUNTRY|e }}), submitted to
+-      the LCZ Generator. This dataset is licensed under CC BY-SA, and more information is available at
++      the LCZ Generator. This dataset is licensed under CC BY-NC-SA, and more information is available at
+       <a
+         href="https://lcz-generator.rub.de/factsheets/{{ content.HASHID|e }}/{{ content.HASHID|e }}_factsheet.html"
+       >
+diff --git a/dashboard/templates/tos_text.html b/dashboard/templates/tos_text.html
+index 09aaca0..77dee0e 100644
+--- a/dashboard/templates/tos_text.html
++++ b/dashboard/templates/tos_text.html
+@@ -1,11 +1,12 @@
+ <p class="tm-p-mb">
+   All data are distributed under the
+-  <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">
+-  CC BY-SA 4.0 license</a>. In particular, permission is hereby granted, free
+-  of charge, to any person obtaining a copy of this data and associated
+-  documentation files, to copy and redistribute the material in any medium or
+-  format, and to remix, transform, and build upon the material for any purpose,
+-  even commercially, all subject to the following:
++  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"
++    >CC BY-NC-SA 4.0 license</a
++  >. In particular, permission is hereby granted, free of charge, to any person
++  obtaining a copy of this data and associated documentation files, to copy and
++  redistribute the material in any medium or format, and to remix, transform,
++  and build upon the material for non-commercial use only, all subject to the
++  following:
+ </p>
+ <ul>
+   <li>
+```
+
+#### Features
+
+- Document how to use the tile map service (TMS) of the global LCZ map in qgis and `contextily`
+
 ### 1.7.0 (2023-05-08)
 
 #### Modifications
