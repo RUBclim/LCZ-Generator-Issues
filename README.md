@@ -12,6 +12,17 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 ## Changelog
 
+### 2.0.1 (2023-09-24)
+
+#### Modifications
+
+- update dependencies #442
+- update FAQ with multi-temporal LCZ mapping which is now open-source on GitHub #446
+
+#### Features
+
+- add feature to allow inverting coordinates for multiple Tile Map Services #445
+
 ### 2.0.0 (2023-06-16)
 
 #### Modifications
