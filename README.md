@@ -12,6 +12,17 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 ## Changelog
 
+### 2.1.0 (2023-10-24)
+
+#### Modifications
+
+- update dependencies
+- update FAQ with multi-temporal LCZ mapping which is now open-source on GitHub
+
+#### Features
+
+- add versioning to tile map services (TMS). Now version `v2` and version `v3` are available as well as a `latest` version always pointing towards the latest available version (currently `v3`). To avoid breaking existing connections to the TMS, old urls will now redirect to the latest version. This way was selected since no versioning was provided for the old urls hence updates can be expected (similar to open street map). The documentation was updated accordingly.
+
 ### 2.0.1 (2023-09-24)
 
 #### Modifications
