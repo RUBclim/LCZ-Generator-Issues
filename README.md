@@ -12,6 +12,12 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 ## Changelog
 
+### 2.1.1 (2023-10-25)
+
+#### Modifications
+
+- update dependencies ([CVE in Werkzeug](https://cwe.mitre.org/data/definitions/407.html))
+
 ### 2.1.0 (2023-10-24)
 
 #### Modifications
