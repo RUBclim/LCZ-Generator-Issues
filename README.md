@@ -12,6 +12,17 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 ## Changelog
 
+### 2.1.2 (2023-11-20)
+
+#### Bug Fixes
+
+- fix a bug where the selection of rows for download was not possible due to a js/css hash being invalid
+
+#### Modifications
+
+- update dependencies
+- change the order of the leaflet layer in the display of the global LCZ-Map so they appear similar to a GIS
+
 ### 2.1.1 (2023-10-25)
 
 #### Modifications
