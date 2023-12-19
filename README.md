@@ -12,6 +12,16 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 ## Changelog
 
+### 2.1.3 (2023-12-19)
+
+#### Modifications
+
+- update dependencies
+- add an sri-checker as pre-commit hook and in CI to avoid invalid SRI-hashes ending up in production
+- update the links for the global LCZ map to point to the updated version in earthengine
+- make the css/js upgrade write atomically
+- migrate the dependency management from `requirements-tools` to `pip-tools`
+
 ### 2.1.2 (2023-11-20)
 
 #### Bug Fixes
