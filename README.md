@@ -12,6 +12,17 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 ## Changelog
 
+### 2.1.5 (2024-04-15)
+
+#### Bug Fixes
+
+- fix data tables appearance after 2.0.0 changes
+
+#### Modifications
+
+- upgrade requirements
+- add bootstrap styling to the accuracy slider
+
 ### 2.1.4 (2024-03-05)
 
 #### Modifications
