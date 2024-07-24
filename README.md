@@ -12,6 +12,17 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 ## Changelog
 
+### 2.1.6 (2024-07-24)
+
+#### Bug Fixes
+
+- fix the centering of the datatable components when resized
+
+### Modifications
+
+- upgrade requirements
+- remove export to earthengine to save computation time
+
 ### 2.1.5 (2024-04-15)
 
 #### Bug Fixes
