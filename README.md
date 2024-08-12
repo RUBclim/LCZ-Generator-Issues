@@ -12,6 +12,17 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 ## Changelog
 
+## 2.1.7 (2024-08-12)
+
+### Bug Fixes
+
+- address geometry warnings when setting a CRS
+
+### Modifications
+
+- upgrade requirements
+- migrate to a google cloud project
+
 ### 2.1.6 (2024-07-24)
 
 #### Bug Fixes
