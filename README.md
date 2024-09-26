@@ -12,9 +12,21 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 ## Changelog
 
-## 2.2.0 (2024-08-14)
+### 2.3.0 (2024-09-26)
 
 ### Features
+
+- add routine to extract TAs from LCZ Generator
+
+### Modifications
+
+- add new FAQ-entries for downloading TAs and the submission table
+- Revert: change the maximum allowed area from 2.5°x 2.5° to 2.0° x 2.0°
+- upgrade requirements
+
+### 2.2.0 (2024-08-14)
+
+#### Features
 
 - allow suppressing the error email to the submitter for a requeue
 - allow requeueing multiple submissions at once
@@ -22,18 +34,18 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
   if something went wrong. Previously the task would only terminate when the time
   limit was reached
 
-### Modifications
+#### Modifications
 
 - **change the maximum allowed area from 2.5°x 2.5° to 2.0° x 2.0°**
 - upgrade requirements
 
-## 2.1.7 (2024-08-12)
+### 2.1.7 (2024-08-12)
 
-### Bug Fixes
+#### Bug Fixes
 
 - address geometry warnings when setting a CRS
 
-### Modifications
+#### Modifications
 
 - upgrade requirements
 - migrate to a google cloud project
