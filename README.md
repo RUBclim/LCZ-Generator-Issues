@@ -12,6 +12,19 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 ## Changelog
 
+### 2.3.1 (2024-11-08)
+
+### Features
+
+- extend routine that extracts TAs from the LCZ Generator to also include data from the
+  old WUDAPT portal
+- Use gzip compression fro requests - this will drastically speed up loading the
+  submission table for users with a slow(er) internet connection
+
+### Modifications
+
+- upgrade requirements
+
 ### 2.3.0 (2024-09-26)
 
 ### Features
