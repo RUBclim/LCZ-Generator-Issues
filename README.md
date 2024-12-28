@@ -12,26 +12,34 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 ## Changelog
 
+### 2.4.0 (2024-12-28)
+
+#### Modifications
+
+- upgrade requirements
+- for training areas to be valid, there now have to be at least 3 polygons per class present for a submission to go through
+- use `uv` for requirements-management and CI
+
 ### 2.3.1 (2024-11-08)
 
-### Features
+#### Features
 
 - extend routine that extracts TAs from the LCZ Generator to also include data from the
   old WUDAPT portal
 - Use gzip compression fro requests - this will drastically speed up loading the
   submission table for users with a slow(er) internet connection
 
-### Modifications
+#### Modifications
 
 - upgrade requirements
 
 ### 2.3.0 (2024-09-26)
 
-### Features
+#### Features
 
 - add routine to extract TAs from LCZ Generator
 
-### Modifications
+#### Modifications
 
 - add new FAQ-entries for downloading TAs and the submission table
 - Revert: change the maximum allowed area from 2.5°x 2.5° to 2.0° x 2.0°
@@ -69,7 +77,7 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 - fix the centering of the datatable components when resized
 
-### Modifications
+#### Modifications
 
 - upgrade requirements
 - remove export to earthengine to save computation time
