@@ -12,6 +12,17 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 ## Changelog
 
+### 2.5.0
+
+#### Modifications
+
+- upgrade requirements
+- The test-train split for the 25 bootstraps performed is now stratified per LCZ-class. This
+  improves the robustness of the accuracy assessment and should reduce the number of failed
+  submissions due to not enough class being available. The change is documented
+  [here](/tt_split_algo_change.md) and the overall impact was assessed and found to be,
+  in most cases, minimal. If there are any questions regarding this change, please reach out.
+
 ### 2.4.0 (2024-12-28)
 
 #### Modifications
