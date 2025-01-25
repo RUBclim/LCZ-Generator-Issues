@@ -12,7 +12,18 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 ## Changelog
 
-### 2.5.0
+### 2.5.1 (2025-01-25)
+
+### Bug fixes
+
+- the new test-train-split algorithm released in 2.5.0 did not work with TAs where **every** class only had the minimum of three TAs (which are very bad TA sample sets, but are submitted frequently)
+
+### Modifications
+
+- upgrade requirements
+- previously an invalid kmz file was reported as an error even though it was correctly rejected
+
+### 2.5.0 (2025-01-14)
 
 #### Modifications
 
