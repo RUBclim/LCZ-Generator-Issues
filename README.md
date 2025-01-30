@@ -12,6 +12,15 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 ## Changelog
 
+### 2.5.2 (2025-01-30)
+
+#### Modifications
+
+- remove a leftover print statement
+- port the deployment to docker
+- move to Python 3.12 for the deployment
+- remove deprecated `datetime.utcnow`
+
 ### 2.5.1 (2025-01-25)
 
 ### Bug fixes
