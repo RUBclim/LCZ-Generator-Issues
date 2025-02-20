@@ -12,6 +12,12 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 ## Changelog
 
+### 2.5.4 (2025-02-20)
+
+#### Bug fixes
+
+- fix a bug where requeueing a submission failed, when the metadata already existed in the directory
+
 ### 2.5.3 (2025-02-20)
 
 #### Bug fixes
