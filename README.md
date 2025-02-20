@@ -12,6 +12,16 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 ## Changelog
 
+### 2.5.3 (2025-02-20)
+
+#### Bug fixes
+
+- we need to explicitly specify the cloud project to use when working with the earthengine CLI
+
+#### Modifications
+
+- upgrade requirements
+
 ### 2.5.2 (2025-01-30)
 
 #### Modifications
