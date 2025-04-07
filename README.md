@@ -12,6 +12,13 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 ## Changelog
 
+### 2.6.0 (2025-04-07)
+
+#### Modifications
+
+- move to TiTiler for hosting the TMS server
+- upgrade requirements
+
 ### 2.5.4 (2025-02-20)
 
 #### Bug fixes
