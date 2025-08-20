@@ -12,6 +12,15 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 ## Changelog
 
+### 2.6.1 (2025-08-20)
+
+#### Modifications
+
+- fix container health checks, fix url rewrite from cloud-optimized geotiffs
+- update requirements
+- move to python 3.13
+- add google site verification
+
 ### 2.6.0 (2025-04-07)
 
 #### Modifications
