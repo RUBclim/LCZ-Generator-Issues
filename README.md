@@ -12,6 +12,13 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 ## Changelog
 
+### 2.7.0 (2025-10-07)
+
+#### Modifications
+
+- Migrate to Postgres 18
+- update requirements
+
 ### 2.6.1 (2025-08-20)
 
 #### Modifications
