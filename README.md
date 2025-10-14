@@ -12,6 +12,17 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 ## Changelog
 
+### 2.7.1 (2025-10-14)
+
+#### Bug fixes
+
+- pin bootstrap select to version 3.1.0 to fix a bug where checkboxes were not shown
+
+#### Modifications
+
+- update requirements
+- add new FAQ entry on GeoTIFF data format
+
 ### 2.7.0 (2025-10-07)
 
 #### Modifications
