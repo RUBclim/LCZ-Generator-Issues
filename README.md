@@ -12,6 +12,25 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 ## Changelog
 
+### 2.8.0 (2025-10-21)
+
+#### Features
+
+- add feature to record the computing time for each submission. The EECU seconds as well
+  as the overall time will be stored. This may later be utilized to enforce per-user
+  limits to allow everyone the usage of the tool.
+- add feature to ban authors from the service. This will be utilized if users continue
+  to abuse the system e.g. by submitting many tasks or extremely large TAs even after
+  being informed to stop.
+- ban single-use email addresses. Single use email addresses may no longer be used with
+  the LCZ-Generator.
+
+#### Modifications
+
+- use redis as a task queue
+- limit container resources to avoid running out of memory
+- update requirements
+
 ### 2.7.1 (2025-10-14)
 
 #### Bug fixes
