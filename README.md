@@ -12,6 +12,14 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 ## Changelog
 
+### 2.8.1 (2025-10-24)
+
+#### Bug fixes
+
+- fix a bug in the task monitoring. It would wait for either the tasks being done or the
+  files being available this caused an error when trying to store the EECU seconds
+  consumed this will also mean that a requeue will fully reprocess everything
+
 ### 2.8.0 (2025-10-21)
 
 #### Features
