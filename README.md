@@ -12,6 +12,19 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 ## Changelog
 
+### 2.8.2 (2025-12-08)
+
+#### Modifications
+
+- We have been getting a lot of failed runs (1-2 per day) caused by
+  `SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING]...` which is likely due
+  to an unstable internet connect (common at RUB). We added an automatic retry mechanism
+  that retries the task three times with a two minute delay. We ensure that all
+  prerequisites are fulfilled before trying to requeue the run.
+- the docker volume mount changed. We now need to mount `/var/lib/postgresql` instead of
+  `/var/lib/postgresql/data`. This made it necessary to fully restore the database from a backup.
+- update requirements
+
 ### 2.8.1 (2025-10-24)
 
 #### Bug fixes
