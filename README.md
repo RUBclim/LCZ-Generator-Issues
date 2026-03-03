@@ -12,6 +12,12 @@ You can't reach the LCZ Generator? Have a look at the status [status page](https
 
 ## Changelog
 
+### 2.8.3 (2026-03-03)
+
+#### Modifications
+
+- update requirements
+
 ### 2.8.2 (2025-12-08)
 
 #### Modifications
