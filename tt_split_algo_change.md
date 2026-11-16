@@ -86,7 +86,7 @@ Training areas submitted to the LCZ-Generator by: Aarav Singh.
 | **Sample Size Class:** low                                           | **Sample Size Class:** low                                              |
 | **$OA$:** 0.686                                                      | **$OA$:** 0.736                                                         |
 | **$OA_u$:** 0.280                                                    | **$OA_u$:** 0.331                                                       |
-| **$OA_{bu}$:** 0.852                                                 | **$OA_{bu}$:** 0.880                                                    |
+| **$OA\_{bu}$:** 0.852                                                | **$OA\_{bu}$:** 0.880                                                   |
 | **$OA_w$:** 0.840                                                    | **$OA_w$:** 0.870                                                       |
 | ![](img/949c5c4f7926461a1de02cbd33f862a5c4474cf7lcz_oa_uniform.png)  | ![](img/272f4d6060cf6f8a6b2d1df3f374aca90d28a2a2lcz_oa_stratified.png)  |
 | ![](img/949c5c4f7926461a1de02cbd33f862a5c4474cf7lcz_map_uniform.png) | ![](img/272f4d6060cf6f8a6b2d1df3f374aca90d28a2a2lcz_map_stratified.png) |
@@ -103,7 +103,7 @@ Training areas submitted to the LCZ-Generator by: Narimene Jday.
 | **Sample Size Class:** low                                           | **Sample Size Class:** low                                              |
 | **$OA$:** 0.503                                                      | **$OA$:** 0.561                                                         |
 | **$OA_u$:** 0.361                                                    | **$OA_u$:** 0.386                                                       |
-| **$OA_{bu}$:** 0.925                                                 | **$OA_{bu}$:** 0.924                                                    |
+| **$OA\_{bu}$:** 0.925                                                | **$OA\_{bu}$:** 0.924                                                   |
 | **$OA_w$:** 0.882                                                    | **$OA_w$:** 0.893                                                       |
 | ![](img/c3baae1826c8857042d3f1d430d5daa7be745eb0lcz_oa_uniform.png)  | ![](img/ce020d91a3c776c3137d976e12c12f5f4b0b1f75lcz_oa_stratified.png)  |
 | ![](img/c3baae1826c8857042d3f1d430d5daa7be745eb0lcz_map_uniform.png) | ![](img/ce020d91a3c776c3137d976e12c12f5f4b0b1f75lcz_map_stratified.png) |
@@ -120,7 +120,7 @@ Training areas submitted to the LCZ-Generator by: Amir Raoufi.
 | **Sample Size Class:** low                                           | **Sample Size Class:** low                                              |
 | **$OA$:** 0.843                                                      | **$OA$:** 0.899                                                         |
 | **$OA_u$:** 0.827                                                    | **$OA_u$:** 0.885                                                       |
-| **$OA_{bu}$:** 0.960                                                 | **$OA_{bu}$:** 0.984                                                    |
+| **$OA\_{bu}$:** 0.960                                                | **$OA\_{bu}$:** 0.984                                                   |
 | **$OA_w$:** 0.958                                                    | **$OA_w$:** 0.979                                                       |
 | ![](img/de60eb10ab3783a698a60724d09f679b70ff1d20lcz_oa_uniform.png)  | ![](img/d010004bd2a3b51f252bdeca08d5917a91b63978lcz_oa_stratified.png)  |
 | ![](img/de60eb10ab3783a698a60724d09f679b70ff1d20lcz_map_uniform.png) | ![](img/d010004bd2a3b51f252bdeca08d5917a91b63978lcz_map_stratified.png) |
@@ -137,7 +137,7 @@ Training areas submitted to the LCZ-Generator by: JESUS LOPEZ.
 | **Sample Size Class:** low                                           | **Sample Size Class:** low                                              |
 | **$OA$:** 0.691                                                      | **$OA$:** 0.704                                                         |
 | **$OA_u$:** 0.808                                                    | **$OA_u$:** 0.812                                                       |
-| **$OA_{bu}$:** 0.905                                                 | **$OA_{bu}$:** 0.907                                                    |
+| **$OA\_{bu}$:** 0.905                                                | **$OA\_{bu}$:** 0.907                                                   |
 | **$OA_w$:** 0.921                                                    | **$OA_w$:** 0.920                                                       |
 | ![](img/c40d871420ff698d54489a70568df4f658d71388lcz_oa_uniform.png)  | ![](img/266a39d789849bc81553b38bc550a5e8431d6123lcz_oa_stratified.png)  |
 | ![](img/c40d871420ff698d54489a70568df4f658d71388lcz_map_uniform.png) | ![](img/266a39d789849bc81553b38bc550a5e8431d6123lcz_map_stratified.png) |
@@ -154,7 +154,7 @@ Training areas submitted to the LCZ-Generator by: Ana Campelo.
 | **Sample Size Class:** low                                           | **Sample Size Class:** low                                              |
 | **$OA$:** 0.735                                                      | **$OA$:** 0.737                                                         |
 | **$OA_u$:** 0.892                                                    | **$OA_u$:** 0.886                                                       |
-| **$OA_{bu}$:** 0.837                                                 | **$OA_{bu}$:** 0.844                                                    |
+| **$OA\_{bu}$:** 0.837                                                | **$OA\_{bu}$:** 0.844                                                   |
 | **$OA_w$:** 0.917                                                    | **$OA_w$:** 0.921                                                       |
 | ![](img/98d1fdf6a225c8ab11c2eeeec852c7295a9246f8lcz_oa_uniform.png)  | ![](img/df0622c5d671fe28a4c33533099f9e6d13476362lcz_oa_stratified.png)  |
 | ![](img/98d1fdf6a225c8ab11c2eeeec852c7295a9246f8lcz_map_uniform.png) | ![](img/df0622c5d671fe28a4c33533099f9e6d13476362lcz_map_stratified.png) |
@@ -171,7 +171,7 @@ Training areas submitted to the LCZ-Generator by: Lamprini Adamopoulou.
 | **Sample Size Class:** medium                                        | **Sample Size Class:** medium                                           |
 | **$OA$:** 0.630                                                      | **$OA$:** 0.679                                                         |
 | **$OA_u$:** 0.590                                                    | **$OA_u$:** 0.642                                                       |
-| **$OA_{bu}$:** 0.916                                                 | **$OA_{bu}$:** 0.929                                                    |
+| **$OA\_{bu}$:** 0.916                                                | **$OA\_{bu}$:** 0.929                                                   |
 | **$OA_w$:** 0.914                                                    | **$OA_w$:** 0.928                                                       |
 | ![](img/d7f6b2b33f6f8a4f4d77b1a59706f322e3c8f0e9lcz_oa_uniform.png)  | ![](img/59092070818b0d144e92a2825f90f03d35ae92e0lcz_oa_stratified.png)  |
 | ![](img/d7f6b2b33f6f8a4f4d77b1a59706f322e3c8f0e9lcz_map_uniform.png) | ![](img/59092070818b0d144e92a2825f90f03d35ae92e0lcz_map_stratified.png) |
@@ -188,7 +188,7 @@ Training areas submitted to the LCZ-Generator by: Brooke Conroy.
 | **Sample Size Class:** medium                                        | **Sample Size Class:** medium                                           |
 | **$OA$:** 0.660                                                      | **$OA$:** 0.688                                                         |
 | **$OA_u$:** 0.694                                                    | **$OA_u$:** 0.720                                                       |
-| **$OA_{bu}$:** 0.875                                                 | **$OA_{bu}$:** 0.893                                                    |
+| **$OA\_{bu}$:** 0.875                                                | **$OA\_{bu}$:** 0.893                                                   |
 | **$OA_w$:** 0.918                                                    | **$OA_w$:** 0.927                                                       |
 | ![](img/0efa3968054d9f7f65f7614ee981179915682cb9lcz_oa_uniform.png)  | ![](img/6f232ba6089e5d3d456076ab9ce342ec5be17dc6lcz_oa_stratified.png)  |
 | ![](img/0efa3968054d9f7f65f7614ee981179915682cb9lcz_map_uniform.png) | ![](img/6f232ba6089e5d3d456076ab9ce342ec5be17dc6lcz_map_stratified.png) |
@@ -205,7 +205,7 @@ Training areas submitted to the LCZ-Generator by: Vanessa Oliveira Borges.
 | **Sample Size Class:** medium                                        | **Sample Size Class:** medium                                           |
 | **$OA$:** 0.770                                                      | **$OA$:** 0.806                                                         |
 | **$OA_u$:** 0.412                                                    | **$OA_u$:** 0.494                                                       |
-| **$OA_{bu}$:** 0.982                                                 | **$OA_{bu}$:** 0.978                                                    |
+| **$OA\_{bu}$:** 0.982                                                | **$OA\_{bu}$:** 0.978                                                   |
 | **$OA_w$:** 0.930                                                    | **$OA_w$:** 0.936                                                       |
 | ![](img/9bb1f3ba9a9b52c6a2379e55e312eca1075a0f3elcz_oa_uniform.png)  | ![](img/e481a34079ed9996a2275dfc0b0845386a0f4316lcz_oa_stratified.png)  |
 | ![](img/9bb1f3ba9a9b52c6a2379e55e312eca1075a0f3elcz_map_uniform.png) | ![](img/e481a34079ed9996a2275dfc0b0845386a0f4316lcz_map_stratified.png) |
@@ -222,7 +222,7 @@ Training areas submitted to the LCZ-Generator by: Bryce Rostkowski.
 | **Sample Size Class:** medium                                        | **Sample Size Class:** medium                                           |
 | **$OA$:** 0.606                                                      | **$OA$:** 0.605                                                         |
 | **$OA_u$:** 0.486                                                    | **$OA_u$:** 0.486                                                       |
-| **$OA_{bu}$:** 0.892                                                 | **$OA_{bu}$:** 0.885                                                    |
+| **$OA\_{bu}$:** 0.892                                                | **$OA\_{bu}$:** 0.885                                                   |
 | **$OA_w$:** 0.886                                                    | **$OA_w$:** 0.885                                                       |
 | ![](img/eee55f03805073e5612a1888058060ed3c366cb6lcz_oa_uniform.png)  | ![](img/5e5ba8529be42e4fa8dec0982250c34b2c4adf8alcz_oa_stratified.png)  |
 | ![](img/eee55f03805073e5612a1888058060ed3c366cb6lcz_map_uniform.png) | ![](img/5e5ba8529be42e4fa8dec0982250c34b2c4adf8alcz_map_stratified.png) |
@@ -239,7 +239,7 @@ Training areas submitted to the LCZ-Generator by: S M.
 | **Sample Size Class:** medium                                        | **Sample Size Class:** medium                                           |
 | **$OA$:** 0.724                                                      | **$OA$:** 0.728                                                         |
 | **$OA_u$:** 0.729                                                    | **$OA_u$:** 0.762                                                       |
-| **$OA_{bu}$:** 0.893                                                 | **$OA_{bu}$:** 0.898                                                    |
+| **$OA\_{bu}$:** 0.893                                                | **$OA\_{bu}$:** 0.898                                                   |
 | **$OA_w$:** 0.890                                                    | **$OA_w$:** 0.890                                                       |
 | ![](img/036d14143c14d65844e8cb58d10031cb37301b6blcz_oa_uniform.png)  | ![](img/0e002e1dbab7101dc9654e57a7cc3ea594acb2eclcz_oa_stratified.png)  |
 | ![](img/036d14143c14d65844e8cb58d10031cb37301b6blcz_map_uniform.png) | ![](img/0e002e1dbab7101dc9654e57a7cc3ea594acb2eclcz_map_stratified.png) |
@@ -256,7 +256,7 @@ Training areas submitted to the LCZ-Generator by: sun yuxin.
 | **Sample Size Class:** medium                                        | **Sample Size Class:** medium                                           |
 | **$OA$:** 0.702                                                      | **$OA$:** 0.698                                                         |
 | **$OA_u$:** 0.624                                                    | **$OA_u$:** 0.633                                                       |
-| **$OA_{bu}$:** 0.973                                                 | **$OA_{bu}$:** 0.970                                                    |
+| **$OA\_{bu}$:** 0.973                                                | **$OA\_{bu}$:** 0.970                                                   |
 | **$OA_w$:** 0.917                                                    | **$OA_w$:** 0.915                                                       |
 | ![](img/d858e0e23f5136c528a815b6abb2afb856d10b03lcz_oa_uniform.png)  | ![](img/dbc0f5775d94c0f4b160604559a2ef92460c25adlcz_oa_stratified.png)  |
 | ![](img/d858e0e23f5136c528a815b6abb2afb856d10b03lcz_map_uniform.png) | ![](img/dbc0f5775d94c0f4b160604559a2ef92460c25adlcz_map_stratified.png) |
@@ -273,7 +273,7 @@ Training areas submitted to the LCZ-Generator by: 旭 黄.
 | **Sample Size Class:** high                                          | **Sample Size Class:** high                                             |
 | **$OA$:** 0.629                                                      | **$OA$:** 0.635                                                         |
 | **$OA_u$:** 0.649                                                    | **$OA_u$:** 0.661                                                       |
-| **$OA_{bu}$:** 0.966                                                 | **$OA_{bu}$:** 0.958                                                    |
+| **$OA\_{bu}$:** 0.966                                                | **$OA\_{bu}$:** 0.958                                                   |
 | **$OA_w$:** 0.869                                                    | **$OA_w$:** 0.868                                                       |
 | ![](img/98db7f7e88ba503917d19a5c9e97e1a52b11dbe3lcz_oa_uniform.png)  | ![](img/30e9398d2b8692cda45d81124401efaf92ed7335lcz_oa_stratified.png)  |
 | ![](img/98db7f7e88ba503917d19a5c9e97e1a52b11dbe3lcz_map_uniform.png) | ![](img/30e9398d2b8692cda45d81124401efaf92ed7335lcz_map_stratified.png) |
@@ -290,7 +290,7 @@ Training areas submitted to the LCZ-Generator by: Narcis Burlacu.
 | **Sample Size Class:** high                                          | **Sample Size Class:** high                                             |
 | **$OA$:** 0.593                                                      | **$OA$:** 0.593                                                         |
 | **$OA_u$:** 0.472                                                    | **$OA_u$:** 0.452                                                       |
-| **$OA_{bu}$:** 0.901                                                 | **$OA_{bu}$:** 0.905                                                    |
+| **$OA\_{bu}$:** 0.901                                                | **$OA\_{bu}$:** 0.905                                                   |
 | **$OA_w$:** 0.889                                                    | **$OA_w$:** 0.888                                                       |
 | ![](img/d208b5e2a8ba990cca64f52ec2cce3cb2dcc8877lcz_oa_uniform.png)  | ![](img/457b14216b2e41d9119b75230327537311444180lcz_oa_stratified.png)  |
 | ![](img/d208b5e2a8ba990cca64f52ec2cce3cb2dcc8877lcz_map_uniform.png) | ![](img/457b14216b2e41d9119b75230327537311444180lcz_map_stratified.png) |
